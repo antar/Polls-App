@@ -9,11 +9,12 @@ GRANT ALL PRIVILEGES ON user TO 'm133'@'localhost';
 CREATE TABLE poll (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
-	closed bool
+	closed BOOLEAN
 );
 
-CREATE TABLE user (
+CREATE TABLE vote (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    response bool,
-	poll_id int FOREIGN KEY REFERENCES poll(id)
+    response BOOLEAN,
+	poll_id INT,
+	FOREIGN KEY (poll_id) REFERENCES poll(id)
 );
