@@ -10,7 +10,7 @@ class database
 
     function getData()
     {
-        $query = $this->pdo->prepare('SELECT * FROM database');
+        $query = $this->pdo->prepare('show tables');
         $query->execute();
         return $query->fetchAll();
     }
