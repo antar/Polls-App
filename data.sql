@@ -1,0 +1,19 @@
+CREATE USER 'm133'@'localhost' IDENTIFIED BY 'm133';
+
+DROP DATABASE m133;
+CREATE DATABASE m133;
+USE m133;
+
+GRANT ALL PRIVILEGES ON user TO 'm133'@'localhost';
+
+CREATE TABLE poll (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+	closed bool
+);
+
+CREATE TABLE user (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    response bool,
+	poll_id int FOREIGN KEY REFERENCES poll(id)
+);
