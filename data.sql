@@ -6,15 +6,15 @@ USE m133;
 
 GRANT ALL PRIVILEGES ON user TO 'm133'@'localhost';
 
-CREATE TABLE poll (
+CREATE TABLE polls (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
 	closed BOOLEAN
 );
 
-CREATE TABLE vote (
+CREATE TABLE votes (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     response BOOLEAN,
 	poll_id INT,
-	FOREIGN KEY (poll_id) REFERENCES poll(id)
+	FOREIGN KEY (poll_id) REFERENCES polls(id)
 );
