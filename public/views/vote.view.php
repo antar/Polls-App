@@ -1,7 +1,7 @@
 <?php
 
 include '../functions.php';
-include '../controller/vote.php';
+include '../controller/vote.controller.php';
 ?>
 <style>
 <?php
@@ -14,7 +14,7 @@ include '../assets/styles/style.css'
 <div class="content poll-vote">
 	<h2><?=$poll['title']?></h2>
 	<p><?=$poll['desc']?></p>
-    <form action="../controller/vote.php?id=<?=$_GET['id']?>" method="post">
+    <form action="../controller/vote.controller.php?id=<?=$_GET['id']?>" method="post">
         <?php for ($i = 0; $i < count($poll_answers); $i++): ?>
         <label>
             <input type="radio" name="poll_answer" value="<?=$poll_answers[$i]['id']?>"<?=$i == 0 ? ' checked' : ''?>>
