@@ -1,6 +1,6 @@
 <?php
 
-include '../functions.php';
+include '../assets/functions.php';
 include '../controller/vote.controller.php';
 ?>
 <style>
