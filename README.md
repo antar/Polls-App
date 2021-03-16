@@ -9,7 +9,7 @@ This App is a simple Web Application where you can create polls and vote them. Y
 
 You need to run the importer.sql file in your sql terminal.
 
-### Second:
+#### Second:
 
 Set up a PHP environment and navigate to the index.php file.
 
