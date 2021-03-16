@@ -1,15 +1,17 @@
 # M133-Polly-Abstimmungs-App
 
-This Project is to learn PHP in School TBZ.
+This App is a simple Web Application where you can create polls and vote them. You should use it locally. If u have enough knowledge with u can also run it on a website.
 
 
-### Prerequisites
+### Installation
 
-What things you need to install
+#### First: 
 
-```
-PHP
-```
+You need to run the importer.sql file in your sql terminal.
+
+### Second:
+
+Set up a PHP environment and navigate to the index.php file.
 
 ### Functions
 
