@@ -28,4 +28,4 @@ Show results
 ## Authors
 
 * **antar** - *Initial work* - [antar](https://github.com/antar)
-* **speyck** - *Initial work* - [speyck](https://github.com/speyck)
+* **speyck** - *Collaborator* - [speyck](https://github.com/speyck)
