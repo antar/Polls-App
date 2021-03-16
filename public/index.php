@@ -1,7 +1,7 @@
 <?php
 
 include 'functions.php';
-include 'database.php';
+include './models/database.php';
 
 $pdo = pdo_connect_mysql();
 
@@ -14,7 +14,7 @@ $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="content home">
 	<h2>Polls</h2>
-	<a href="create.php" class="create-poll">Create Poll</a>
+	<a href="./views/create.view.php" class="create-poll">Create Poll</a>
 	<table>
         <thead>
             <tr>

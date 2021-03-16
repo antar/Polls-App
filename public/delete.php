@@ -1,7 +1,7 @@
 <?php
 
 include 'functions.php';
-include 'database.php';
+include './models/database.php';
 
 $pdo = pdo_connect_mysql();
 $msg = '';

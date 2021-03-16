@@ -1,6 +1,6 @@
 <?php
 
-include '../database.php';
+include '../models/database.php';
 include_once '../functions.php';
 ?>
 <style>

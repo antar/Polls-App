@@ -14,7 +14,7 @@
         <nav class="navtop">
           <div>
             <h1>Voting & Poll System</h1>
-                <a href="index.php"><i class="fas fa-poll-h"></i>Polls</a>
+                <a href="/M133-Polly-Abstimmungs-App/public/index.php"><i class="fas fa-poll-h"></i>Polls</a>
           </div>
         </nav>
     EOT;
