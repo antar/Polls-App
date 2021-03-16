@@ -19,9 +19,9 @@ These functions are avaiable:
 
 ```
 List polls
-Create a new vote
+Create a new poll
 To vote
-End voting
+End voting / Delete votin
 Show results
 ```
 
