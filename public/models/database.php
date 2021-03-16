@@ -4,7 +4,7 @@
         $DATABASE_HOST = '127.0.0.1';
         $DATABASE_USER = 'm133';
         $DATABASE_PASS = 'm133';
-        $DATABASE_NAME = 'phppoll';
+        $DATABASE_NAME = 'm133';
 
         try {
 
