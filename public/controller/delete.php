@@ -1,8 +1,14 @@
 <?php
 
-include 'functions.php';
-include './models/database.php';
-
+include_once '../functions.php';
+include '../models/database.php';
+?>
+<style>
+<?php
+include '../assets/styles/style.css'
+?>
+</style>
+<?php
 $pdo = pdo_connect_mysql();
 $msg = '';
 
@@ -33,11 +39,8 @@ if (isset($_GET['id'])) {
     }
 } else {
     die ('No ID specified!');
-}
-?>
-
+} ?>
 <?=template_header('Delete')?>
-
 <div class="content delete">
 	<h2>Delete Poll #<?=$poll['id']?></h2>
     <?php if ($msg): ?>
@@ -45,10 +48,8 @@ if (isset($_GET['id'])) {
     <?php else: ?>
 	<p>Are you sure you want to delete poll #<?=$poll['id']?>?</p>
     <div class="yesno">
-        <a href="delete.php?id=<?=$poll['id']?>&confirm=yes">Yes</a>
-        <a href="delete.php?id=<?=$poll['id']?>&confirm=no">No</a>
+        <a href="../controller/delete.php?id=<?=$poll['id']?>&confirm=yes">Yes</a>
+        <a href="../controller/delete.php?id=<?=$poll['id']?>&confirm=no">No</a>
     </div>
     <?php endif; ?>
 </div>
-
-<?=template_footer()?>

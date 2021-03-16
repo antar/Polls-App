@@ -32,7 +32,7 @@ $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
 				<td><?=$poll['answers']?></td>
                 <td class="actions">
 					<a href="./views/vote.view.php?id=<?=$poll['id']?>" class="view" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
-                    <a href="delete.php?id=<?=$poll['id']?>" class="trash" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
+                    <a href="./views/delete.view.php?id=<?=$poll['id']?>" class="trash" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
                 </td>
             </tr>
             <?php endforeach; ?>
