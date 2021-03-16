@@ -47,8 +47,8 @@ if (isset($_GET['id'])) {
     <?php else: ?>
 	<p>Are you sure you want to delete poll #<?=$poll['id']?>?</p>
     <div class="yesno">
-        <a href="../controller/delete.controller.php?id=<?=$poll['id']?>&confirm=yes">Yes</a>
-        <a href="../controller/delete.controller.php?id=<?=$poll['id']?>&confirm=no">No</a>
+        <a href="../controllers/delete.controller.php?id=<?=$poll['id']?>&confirm=yes">Yes</a>
+        <a href="../controllers/delete.controller.php?id=<?=$poll['id']?>&confirm=no">No</a>
     </div>
     <?php endif; ?>
 </div>

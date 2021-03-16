@@ -1,7 +1,7 @@
 <?php
 
 include '../assets/functions.php';
-include '../controller/delete.controller.php';
+include '../controllers/delete.controller.php';
 ?>
 <style>
 <?php
