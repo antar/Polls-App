@@ -1,7 +1,7 @@
 <?php
 
 include '../models/database.php';
-include_once '../functions.php';
+include_once '../assets/functions.php';
 ?>
 <style>
 <?php

@@ -1,6 +1,6 @@
 <?php
 
-include_once '../functions.php';
+include_once '../assets/functions.php';
 include '../models/database.php';
 ?>
 <style>
@@ -33,8 +33,7 @@ if (isset($_GET['id'])) {
             $msg = 'You have deleted the poll!';
         } else {
 
-            header('Location: index.php');
-            exit;
+            echo "<script>window.location = '/M133-Polly-Abstimmungs-App/public/index.php'</script>";
         }
     }
 } else {

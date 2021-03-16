@@ -1,6 +1,6 @@
 <?php
 
-include_once '../functions.php';
+include_once '../assets/functions.php';
 include '../models/database.php';
 
 $pdo = pdo_connect_mysql();
