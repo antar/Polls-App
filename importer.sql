@@ -1,8 +1,3 @@
-CREATE USER 'm133'@'localhost' IDENTIFIED BY 'm133';
-
-GRANT ALL PRIVILEGES ON polls TO 'm133'@'localhost';
-GRANT ALL PRIVILEGES ON poll_answers TO 'm133'@'localhost';
-
 CREATE DATABASE IF NOT EXISTS `m133` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `m133`;
 
@@ -24,3 +19,8 @@ CREATE TABLE IF NOT EXISTS `poll_answers` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 INSERT INTO `poll_answers` (`id`, `poll_id`, `title`, `votes`) VALUES (1, 1, 'YES OF COURSE', 0), (2, 1, 'BRO RLLY?', 0), (3, 1, 'NOT AT ALL', 0), (4, 1, 'GO TO HELL', 0);
+
+CREATE USER 'm133'@'localhost' IDENTIFIED BY 'm133';
+
+GRANT ALL PRIVILEGES ON polls TO 'm133'@'localhost';
+GRANT ALL PRIVILEGES ON poll_answers TO 'm133'@'localhost';
