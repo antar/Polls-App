@@ -15,7 +15,7 @@ You need to change the database.php file to your preferences. If you ran the imp
 
 #### Third:
 
-Set up a PHP environment and navigate to the index.php file.
+Set up a PHP environment and navigate to the index.php file. Important is, that you only need the files in the htdocs folder. Grab them and put them on your PHP environment.
 
 ### Functions
 
