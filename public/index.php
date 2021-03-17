@@ -1,7 +1,7 @@
 <?php
 
-include './assets/functions.php';
-include './models/database.php';
+include __DIR__ . '/./assets/functions.php';
+include __DIR__ . '/./models/database.php';
 
 $pdo = pdo_connect_mysql();
 

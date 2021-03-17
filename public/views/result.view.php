@@ -1,11 +1,11 @@
 <?php
 
-include '../assets/functions.php';
-include '../controllers/result.controller.php';
+include __DIR__ . '/../assets/functions.php';
+include __DIR__ . '/../controllers/result.controller.php';
 ?>
 <style>
 <?php
-include '../assets/styles/style.css'
+include __DIR__ . '/../assets/styles/style.css'
 ?>
 </style>
 

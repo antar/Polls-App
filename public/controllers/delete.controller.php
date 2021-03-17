@@ -1,7 +1,7 @@
 <?php
 
-include_once '../assets/functions.php';
-include '../models/database.php';
+include_once __DIR__ . '/../assets/functions.php';
+include __DIR__ . '/../models/database.php';
 ?>
 <style>
 <?php
