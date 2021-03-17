@@ -1,10 +1,10 @@
 <?php
 
   function pdo_connect_mysql() {
-        $DATABASE_HOST = 'localhost';
-        $DATABASE_USER = 'pirovino_test';
-        $DATABASE_PASS = 'tU!CjL,3;A8>7';
-        $DATABASE_NAME = 'pirovino_test';
+        $DATABASE_HOST = '***********'; // probably localhost or 127.0.0.1
+        $DATABASE_USER = '***********'; // db user
+        $DATABASE_PASS = '***********'; // db password
+        $DATABASE_NAME = '***********'; // db name
 
         try {
 
