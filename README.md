@@ -11,6 +11,10 @@ You need to run the importer.sql file in your sql terminal.
 
 #### Second:
 
+You need to change the database.php file to your preferences. If you ran the importer.sql file you should know what to put in.
+
+#### Third:
+
 Set up a PHP environment and navigate to the index.php file.
 
 ### Functions
