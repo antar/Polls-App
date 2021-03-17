@@ -33,7 +33,7 @@ if (isset($_GET['id'])) {
             $msg = 'You have deleted the poll!';
         } else {
 
-            echo "<script>window.location = '/M133-Abstimmungs-App/public/index.php'</script>";
+            echo "<script>window.location = '/index.php'</script>";
         }
     }
 } else {
