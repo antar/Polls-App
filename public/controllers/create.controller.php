@@ -29,7 +29,7 @@ if (!empty($_POST)) {
 
   }
 
-  echo "<script>window.location = '/M133-Polly-Abstimmungs-App/public/index.php'</script>";
+  echo "<script>window.location = '/index.php'</script>";
 
 }
 
