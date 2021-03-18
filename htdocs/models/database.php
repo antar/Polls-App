@@ -12,7 +12,7 @@
 
         } catch (PDOException $exception) {
 
-          die ('Failed to connect to database!');
+          die ("Can't connect to database!");
 
         }
     }
