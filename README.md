@@ -1,6 +1,6 @@
 # M133-Abstimmungs-App
 
-This App is a simple Web Application where you can create polls and vote them. You should use it locally. If u have enough knowledge with u can also run it on a website. The App is live on https://test.pirovino-ag.ch/.
+This App is a simple Web Application where you can create polls and vote them. You should use it locally. If u have enough knowledge with u can also run it on a website. The App is live on https://pull.wes.fm/.
 
 
 ### Installation
