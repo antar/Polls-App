@@ -1,4 +1,4 @@
-# M133-Abstimmungs-App
+# M133-Polls-App
 
 This App is a simple Web Application where you can create polls and vote them. You should use it locally. If u have enough knowledge with u can also run it on a website. The App is live on https://pull.wes.fm/.
 
